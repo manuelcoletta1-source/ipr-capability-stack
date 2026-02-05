@@ -1,43 +1,43 @@
 # IPR Capability Stack
-Modular Operational Architecture of the Identity Primary Record
+Architettura Operativa Modulare dell’Identity Primary Record
 
-EU-first · Audit-first · Fail-closed · Hash-only · No identity custody
+UE-first · Audit-first · Fail-closed · Hash-only · Nessuna custodia identitaria
 
-## What this is
-The IPR Capability Stack defines a modular operational architecture where an Identity Primary Record enables real-world actions only if specific capability modules are active and verifiable ex-ante.
+## Cos’è
+L’IPR Capability Stack definisce un’architettura operativa modulare in cui un Identity Primary Record abilita azioni digitali e fisiche solo se i moduli di capacità richiesti risultano attivi e verificabili ex-ante.
 
-This repository does not introduce a new authority.
-It introduces a technical capability:
-execution is allowed only when responsibility and traceability exist before the action.
+Questo repository non introduce una nuova autorità.
+Introduce una capacità tecnica:
+l’esecuzione è ammessa solo quando responsabilità e tracciabilità esistono prima dell’azione.
 
-## Core Principle
-No capability active → no execution allowed.
+## Principio fondamentale
+Nessun modulo attivo → nessuna esecuzione ammessa.
 
-## Architecture Overview
+## Panoramica architettura
 IPR Core
 │
-├── IPR-UNEBDO — Opposability & Evidence  
-├── IPR-OPC — Operational Control (ex-ante)  
-├── IPR-CYBERGLOBAL — Interoperability  
-├── IPR-METAEXCHANGE — Verified exchange  
-├── IPR-NEUROLOOP — Evolution & audit  
-└── IPR-IOSPACE — Physical & robotic extension  
+├── IPR-UNEBDO — Opponibilità e prova  
+├── IPR-OPC — Controllo operativo ex-ante  
+├── IPR-CYBERGLOBAL — Interoperabilità  
+├── IPR-METAEXCHANGE — Scambi verificabili  
+├── IPR-NEUROLOOP — Evoluzione e audit  
+└── IPR-IOSPACE — Estensione fisica e robotica  
 
-Each module activates specific operational capabilities.
+Ogni modulo attiva specifiche capacità operative.
 
-## Operational Logic
-Request → IPR verification → Module verification → PASS / FAIL → Execution or block → Evidence.
+## Logica operativa
+Richiesta azione → verifica IPR → verifica moduli attivi → PASS / FAIL → esecuzione o blocco → evidenza.
 
-Fail-closed by design.
+Il sistema opera in modalità fail-closed.
 
-## EU Alignment
-AI Act — human oversight ex-ante  
-NIS2 — prevention before execution  
-GDPR — minimization & hash-only  
-eIDAS principles — traceability & opponibility  
+## Allineamento europeo
+AI Act — supervisione umana ex-ante  
+NIS2 — prevenzione prima dell’esecuzione  
+GDPR — minimizzazione dati e hash-only  
+Principi eIDAS — tracciabilità e opponibilità nel tempo  
 
-## Status
-Architecture defined and active in modular development across the Hermeticum ecosystem.
+## Stato
+Architettura definita e in attivazione modulare nell’ecosistema Hermeticum.
 
-## Function
-This repository acts as the architectural map of all IPR operational modules.
+## Funzione del repository
+Questo repository rappresenta la mappa architetturale ufficiale dei moduli operativi IPR e delle loro capacità.
